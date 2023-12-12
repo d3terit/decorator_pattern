@@ -5,7 +5,7 @@ import { DecoradorFuerza, DecoradorMagia, DecoradorVelocidad } from './decorator
 import { Entity, Stats, Decorator } from './interfaces';
 import { Enemigo, Heroe } from './gameObjects';
 import './game.css';
-import { generateRandomStats, getRandomInt } from './uils';
+import { generateRandomStats, getRandomInt } from './utils';
 
 const Game: React.FC = () => {
     const [registro, setRegistro] = useState<string[]>([]);

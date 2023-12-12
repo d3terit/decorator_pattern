@@ -1,5 +1,5 @@
 import { Decorator, Entity, Stats } from "./interfaces";
-import { generateRandomStats } from "./uils";
+import { generateRandomStats } from "./utils";
 
 abstract class DecoradorPersonaje implements Entity {
     nombre: any;
